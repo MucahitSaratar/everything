@@ -11,7 +11,7 @@ try:
 	socket.listen(5)
 	misafir = socket.accept()
 	try:
-		misafir.send("ay isiginda uluyan kurt baglandi..!")
+		misafir.send(" baglandi..!")
 	except:
 		socket.close()
 		exit()
